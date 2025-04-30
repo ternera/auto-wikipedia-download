@@ -1,6 +1,6 @@
 # Auto Wikipedia Download
 
-This is a simple Python script to download the entirety of Wikipedia on a weekly basis. Supports Windows, MacOS, and Linux.
+This is a simple Python script to download the entirety of Wikipedia on a weekly basis. Files in this repository can easily be modified to perform downloads at different frequencies, get different Wikipedia data dumps, and more. Supports Windows, MacOS, and Linux.
 
 ## Features
 
@@ -14,7 +14,7 @@ This is a simple Python script to download the entirety of Wikipedia on a weekly
 - Required Python packages:
   - requests
   - tqdm
-- 20+ GB of free storage
+- 20+ GB of free storage (if you extract the download, it will require much more space)
 
 ## Installation
 
