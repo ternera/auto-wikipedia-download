@@ -10,12 +10,26 @@
     <CalendarTrigger>
       <StartBoundary>2023-11-12T03:00:00</StartBoundary>
       <Enabled>true</Enabled>
-      <ScheduleByWeek>
-        <DaysOfWeek>
-          <Sunday />
-        </DaysOfWeek>
-        <WeeksInterval>1</WeeksInterval>
-      </ScheduleByWeek>
+      <ScheduleByMonth>
+        <DaysOfMonth>
+          <Day>2</Day>
+          <Day>21</Day>
+        </DaysOfMonth>
+        <Months>
+          <January />
+          <February />
+          <March />
+          <April />
+          <May />
+          <June />
+          <July />
+          <August />
+          <September />
+          <October />
+          <November />
+          <December />
+        </Months>
+      </ScheduleByMonth>
     </CalendarTrigger>
   </Triggers>
   <Principals>

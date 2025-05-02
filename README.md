@@ -1,6 +1,6 @@
 # Auto Wikipedia Download
 
-This is a simple Python script to download the entirety of Wikipedia on a weekly basis. Files in this repository can easily be modified to perform downloads at different frequencies, get different Wikipedia data dumps, and more. Supports Windows, MacOS, and Linux.
+This is a simple Python script to download the entirety of Wikipedia twice per month (on the 2nd and 21st when the database dumps receive updates). Files in this repository can easily be modified to perform downloads at different frequencies, get different Wikipedia data dumps, and more. Supports Windows, MacOS, and Linux.
 
 Inspired by [this](https://www.reddit.com/r/YouShouldKnow/comments/whxmhc/comment/ij8iym5/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) comment on Reddit.
 

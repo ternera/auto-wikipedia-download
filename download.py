@@ -131,7 +131,10 @@ def setup_linux_cron():
         os.makedirs(log_dir, exist_ok=True)
         log_file = os.path.join(log_dir, "wikipedia-download.log")
         
-        cron_cmd = cron_template.replace("{SCRIPT_DIR}", SCRIPT_DIR)
+        # Set schedule for 2nd and 21st of each month at 3:00 AM
+        cron_schedule = "0 3 2,21 * *"
+        cron_cmd = cron_template.replace("{CRON_SCHEDULE}", cron_schedule)
+        cron_cmd = cron_cmd.replace("{SCRIPT_DIR}", SCRIPT_DIR)
         cron_cmd = cron_cmd.replace("{PYTHON_PATH}", sys.executable)
         cron_cmd = cron_cmd.replace("{SCRIPT_NAME}", os.path.basename(__file__))
         cron_cmd = cron_cmd.replace("{LOG_FILE}", log_file)
